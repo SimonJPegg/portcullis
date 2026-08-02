@@ -1,3 +1,8 @@
+![Build](https://github.com/SimonJPegg/portcullis/actions/workflows/test.yml/badge.svg)
+![License](https://img.shields.io/github/license/SimonJPegg/portcullis)
+![Version](https://img.shields.io/github/v/tag/SimonJPegg/portcullis)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fe5c47fffb5402794367eba9fef7f09)](https://app.codacy.com/gh/SimonJPegg/portcullis/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 # Portcullis
 
 Distributed policy enforcement at the edge.

@@ -1,0 +1,4 @@
+.idea/
+infra/backend.hcl
+infra/.terraform/
+edge/node_modules
