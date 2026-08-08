@@ -26,6 +26,8 @@ jobs:
           working-directory: backend
       - name: Test
         run: go test -race ./...
+      - name: Integration Test
+        run: go test -race -tags=integration ./... -timeout 120s
 
   edge:
     runs-on: ubuntu-latest

@@ -2,6 +2,12 @@ package domain
 
 import "errors"
 
+// VerdictStore retrieves and persists verdicts keyed by package coordinate.
+type VerdictStore interface {
+	Get(PackageCoordinate) (Verdict, error)
+	Put(PackageCoordinate, Verdict) error
+}
+
 type Verdict interface {
 	isVerdict()
 }
